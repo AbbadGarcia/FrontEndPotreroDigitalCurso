@@ -1,18 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    width: 900px;
+     width: auto;
+    
+  
 }
 h1{
     font-size: 37px;
     line-height:18px;
     font-family:tahoma, Helvetica, sans-serif ;
     color: #000000;
+    padding: 25px;
+    
 }
 h2{
     font-size: 25px;
     line-height: 25px;
     font-family: tahoma, Helvetica, sans-serif;
+    padding: 25px;
+    width: auto;
 }
 img{
     width: 50%;
@@ -21,5 +35,68 @@ img{
 }
 p{
     line-height: 27px;
-    color: #333;
+
 }
+label{
+    padding: 5px;
+   
+}
+input{
+    padding: 5px;
+    margin: 5px;
+   
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    background-color: rgb(202, 202, 202);
+    
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: auto;
+    padding-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: bisque;
+}
+
+.Form{
+    margin: auto;
+    padding: auto;
+    
+}
+
+ div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+iframe{
+    width: 60%;
+}
+
+
+
+
+
+
+
